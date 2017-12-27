@@ -22,6 +22,6 @@ return arr2
 
 function destructivelyAddElementToEndOfArray(array, element){
   var arr = array
-  arr.unshift(element)
+  arr.push(element)
   return arr
 }
