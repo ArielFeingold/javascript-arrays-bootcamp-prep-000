@@ -9,7 +9,7 @@ return arr2
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  var arr = [array]
+  var arr = []
   arr.unshift(element)
   return arr
 }
