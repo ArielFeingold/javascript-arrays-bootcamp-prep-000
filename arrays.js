@@ -6,5 +6,5 @@ function addElementToBeginningOfArray(element){
 var array = [];
 [element, ...array];
 return array;
-}; 
+}
 
